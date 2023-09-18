@@ -5,6 +5,7 @@ import FeatureSectionFruits from './components/FeatureSectionFruits'
 import FeatureSectionBreakfast from './components/FeatureSectionBreakfast'
 import BannerSection from './components/BannerSection'
 import BlogSection from './components/BlogSection'
+import NewsLetter from './components/NewsLetter'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <FeatureSectionBreakfast />
       <BannerSection/>
       <BlogSection/>
+      <NewsLetter/>
     </main>
 
   )
