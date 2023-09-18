@@ -6,6 +6,7 @@ import FeatureSectionBreakfast from './components/FeatureSectionBreakfast'
 import BannerSection from './components/BannerSection'
 import BlogSection from './components/BlogSection'
 import NewsLetter from './components/NewsLetter'
+import FeatureSection from './components/FeatureSection'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <BannerSection/>
       <BlogSection/>
       <NewsLetter/>
+      <FeatureSection/>
     </main>
 
   )
