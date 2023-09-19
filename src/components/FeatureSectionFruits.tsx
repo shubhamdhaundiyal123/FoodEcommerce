@@ -1,10 +1,10 @@
 import ProductCard from "./ProductCard"
 
 const data =[
-    {id:0,img:"pizzaLeft.jpg",name:"Fresh fruits",price:"$10"},
-    {id:1,img:"pizzaLeft.jpg",name:"Fresh fruits",price:"$10"},
-    {id:2,img:"pizzaLeft.jpg",name:"Fresh fruits",price:"$10"},
-    {id:3,img:"pizzaLeft.jpg",name:"Fresh fruits",price:"$10"},
+    {id:0,img:"verticalmango.jpg",name:"Fresh fruits",price:"$10"},
+    {id:1,img:"verticalapple.jpg",name:"Fresh fruits",price:"$10"},
+    {id:2,img:"verticalguava.jpg",name:"Fresh fruits",price:"$10"},
+    {id:3,img:"verticalkiwi.jpg",name:"Fresh fruits",price:"$10"},
 ]
 
 const FeatureSectionFruits = () => {
@@ -26,7 +26,7 @@ const FeatureSectionFruits = () => {
 
     <div className="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 pt-8 gap-2">
         <div>
-            <img className="w-full h-full object-cover" src="makingpizza.jpeg" alt="banner" />
+            <img className="w-full h-full object-cover" src="fruits-wallpaper-hd-1.jpg" alt="banner" />
         </div>
         {data.map((el)=><ProductCard key={el.id} img={el.img} name={el.name} price={el.price} />)}
     </div>

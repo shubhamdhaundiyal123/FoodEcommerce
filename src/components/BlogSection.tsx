@@ -2,19 +2,19 @@ import BlogCard from "./BlogCard"
 
 const data = [
     {
-        img:"pizza.jpeg",
+        img:"1.jpg",
         title:"health and tasty",
         date:"Aug 27, 2023",
         comment:8,
     },
     {
-        img:"pizza.jpeg",
+        img:"2.jpg",
         title:"health and tasty",
         date:"Aug 27, 2023",
         comment:8,
     },
     {
-        img:"pizza.jpeg",
+        img:"3.jpg",
         title:"health and tasty",
         date:"Aug 27, 2023",
         comment:8,
